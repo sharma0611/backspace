@@ -1,10 +1,10 @@
 """ Root query
 """
-# from silk.profiling.profiler import silk_profile
 import graphene
 from graphene import relay
 
 VIEWER_ID = 1
+
 
 class Viewer(graphene.ObjectType):
     #me = graphene.Field(User, description="Root of logged in queries")
@@ -17,4 +17,3 @@ class Viewer(graphene.ObjectType):
 
     class Meta:
         interfaces = (relay.Node, )
-

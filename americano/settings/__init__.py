@@ -123,5 +123,6 @@ STATIC_URL = '/static/'
 # Custom Settings below here
 
 GRAPHENE = {
-    'SCHEMA': 'americano.graphql.schema.schema'  # Where your Graphene schema lives
+    # Where your Graphene schema lives
+    'SCHEMA': 'americano.graphql_layer.schema.schema'
 }
