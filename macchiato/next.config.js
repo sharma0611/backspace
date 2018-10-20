@@ -2,9 +2,9 @@ require('dotenv').config()
 
 const path = require('path')
 const Dotenv = require('dotenv-webpack')
-const withImages = require('next-images')
+const withOptimizedImages = require('next-optimized-images')
 
-module.exports = withImages({
+module.exports = withOptimizedImages({
     webpack: config => {
         config.plugins = config.plugins || []
 
