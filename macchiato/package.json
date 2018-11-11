@@ -12,8 +12,11 @@
         "next-routes": "^1.4.2",
         "react": "^16.5.2",
         "react-dom": "^16.5.2",
+        "react-helmet": "^5.2.0",
         "react-scripts": "2.0.5",
-        "rebass": "^3.0.0-9"
+        "rebass": "^3.0.0-9",
+        "styled-components": "^4.0.3",
+        "unstated": "^2.1.1"
     },
     "scripts": {
         "test": "react-scripts test",
